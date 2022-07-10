@@ -1,0 +1,91 @@
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-transform: none;
+	font-weight: 600;
+	/* font-family: 'Leckerli One', cursive; */
+	text-align: center;
+}
+
+@keyframes slide {
+	0% {
+		opacity: 0;
+		transform: translateX(50%);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0%);
+	}
+}
+
+@-webkit-keyframes slide {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateX(50%);
+		transform: translateX(50%);
+	}
+
+	100% {
+		opacity: 1;
+		-webkit-transform: translateX(0%);
+		transform: translateX(0%);
+	}
+}
+
+/* ******* Testimonials ******* */
+#testimonials .hr-testimonials {
+	border: 1px solid #222;
+	width: 50%;
+	margin: 0 auto 35px auto;
+  /* font-family: 'Leckerli One', cursive; */
+}
+
+#testimonials h3 {
+	color: #353535;
+	margin: 40px auto;
+  /* font-family: 'Leckerli One', cursive; */
+}
+
+#testimonials .carousel {
+	float: none;
+  margin: auto;
+}
+
+
+#testimonials .carousel-indicators li {
+	border: 2px solid #182c39;
+	background-color: #fff;
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+}
+
+#testimonials .carousel-indicators li.active {
+	border-color: #fff;
+	background-color: #182c39;
+}
+
+
+
+#testimonials .carousel-item h4 {
+	font-size: 18px;
+	line-height: 1.2em;
+	font-weight: 500;
+	padding-bottom: 20px;
+  /* font-family: 'Leckerli One', cursive; */
+  color: #353535;
+}
+
+#testimonials .carousel-item h5 {
+	font-size: 15px;
+	font-weight: 500;
+	margin-bottom: 80px;
+	font-style: italic;
+  /* font-family: 'Leckerli One', cursive; */
+  color: #555;
+}
